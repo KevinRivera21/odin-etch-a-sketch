@@ -9,6 +9,12 @@ for (let i = 0; i < 256; i++) {
     square.style.height = '25px';
     square.style.border = 'solid black';
     square.style.boxSizing = 'border-box';
+    square.addEventListener('mouseover', changeSquareColor);
     mainContainer.appendChild(square);
 
 }
+
+function changeSquareColor (event) {
+    event.target.style.backgroundColor = 'black';
+}
+
