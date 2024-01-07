@@ -34,7 +34,16 @@ function changeSquareColor(event) {
 }
 
 function getGridSize() {
-    gridSize = prompt("Enter a new amount of squares per side");
+    let validInput = false;
+    while (!validInput) {
+        gridSize = parseInt(prompt("Enter a new amount of squares per side (between 1 and 100):"), 10);
+        
+        if (gridSize >= 1 && gridSize <= 100 && !isNaN(gridSize)) {
+            validInput = true;
+        } else {
+            alert("Invalid input. Please enter a number between 1 and 100.");
+        }
+    }
     createGrid();
 }
 
