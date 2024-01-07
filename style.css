@@ -1,3 +1,20 @@
-#main-container {
+body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+html {
+    height: 100%;
+}
+
+#main-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
