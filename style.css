@@ -17,8 +17,7 @@ html, body {
 
 
 #main-container {
-    width: 400px;
-    height: 400px;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
