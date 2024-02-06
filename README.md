@@ -21,3 +21,5 @@ This project is a web-based basic simulation of an Etch-a-Sketch toy. It's a sim
 
 This project showcases my skills in creating an interactive web application using HTML, CSS, and JavaScript. It demonstrates my ability to integrate user input and event handling to create engaging web experiences.
 
+### Live Preview
+https://kevinrivera21.github.io/odin-etch-a-sketch/
